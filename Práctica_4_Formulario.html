@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="2columnas.css">
+</head>
+
+<form method="post" action="">
+    <fieldset>
+        <legend>Detalles de la foto</legend>
+        <br />
+        <table>
+            <table>
+                <tr>
+                    <td>
+                        Titulo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea id="titulo" name="titulo" cols="139" rows="1"></textarea> <br />
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        Descripción
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea id="descripcion" name="descripcion" cols="169" rows="5"></textarea> <br />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <div id="contenedor">
+                <div>
+                Continente <br />
+                <select name="continente">
+                    <option value="" disabled selected>Escoger continente</option>
+                    <option value="norteamerica">Norte América</option>
+                    <option value="suramerica"> Sur América</option>
+                    <option value="asia">Asia</option>
+                    <option value="europa">Europa</option>
+                    <option value="africa">África</option>
+                    <option value="oceania">Oceanía</option>
+                </select> <br /> <br />
+                País <br /> 
+                <select name="pais">
+                    <option value="pais" disabled selected>País</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="estadosunidos">Estados Unidos</option>
+                    <option value="mexico">México</option>
+                    <option value="canada">Canada</option>
+                    <option value="china">China</option>
+                    <option value="india">India</option>
+                    <option value="japon">Japón</option>
+                    <option value="corea">Corea del Sur</option>
+                    <option value="turquia">Turquía</option>
+                    <option value="espana">España</option>
+                    <option value="francia">Francia</option>
+                    <option value="italia">Italia</option>
+                    <option value="reinounido">Reino Unido</option>
+                    <option value="alemania">Alemania</option>
+                    <option value="sudafrica">Sudáfrica</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="egipto">Egipto</option>
+                    <option value="kenia">Kenia</option>
+                    <option value="marruecos">Marruecos</option>
+                    <option value="australia">Australia</option>
+                    <option value="nuevazelanda">Nueva Zelanda</option>
+                    <option value="fiji">Fiyi</option>
+                    <option value="papuanuevaguinea">Papúa Nueva Guinea</option>
+                    <option value="vanuatu">Vanuatu</option>
+                </select> <br /> <br />
+                Ciudad <br />
+                <input list="ciudades" name="ciudad">
+                <datalist id="ciudades">
+                    <option value="calgary">Calgary</option>
+                    <option value="montreal">Montreal</option>
+                    <option value="toronto">Toronto</option>
+                    <option value="vancouver">Vancouver</option>
+                    <option value="tlaxcala">Tlaxcala</option>
+                    <option value="buenosaires">Buenos Aires</option>
+                    <option value="riodejaneiro">Río de Janeiro</option>
+                    <option value="santiago">Santiago</option>
+                    <option value="bogota">Bogotá</option>
+                    <option value="nuevayork">Nueva York</option>
+                    <option value="ciudaddemexico">Ciudad de México</option>
+                    <option value="pekin">Pekín</option>
+                    <option value="nuevadelhi">Nueva Delhi</option>
+                    <option value="tokio">Tokio</option>
+                    <option value="seul">Seúl</option>
+                    <option value="estambul">Estambul</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="paris">París</option>
+                    <option value="roma">Roma</option>
+                    <option value="londres">Londres</option>
+                    <option value="berlin">Berlín</option>
+                    <option value="ciudaddeelcabos">Ciudad del Cabo</option>
+                    <option value="lagos">Lagos</option>
+                    <option value="elcairo">El Cairo</option>
+                    <option value="nairobi">Nairobi</option>
+                    <option value="casablanca">Casablanca</option>
+                    <option value="sídney">Sídney</option>
+                    <option value="auckland">Auckland</option>
+                    <option value="suva">Suva</option>
+                    <option value="puertomoresby">Puerto Moresby</option>
+                    <option value="puertovila">Puerto Vila</option>
+                </datalist> <br /> <br />
+
+                Acepto la licencia de software <input type="checkbox" name="aceptacion licencia">
+                <br /> <br />
+                <label for="calificar foto">Califica esta foto:</label> <br />
+                <input type="number" id="cantidad" name="cantidad" min="0" max="10" step="1">
+                <br /> <br />
+                Colección de color: <br />
+                <input type="color"> <br />
+                <br />
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+
+
+            </div>
+
+            <div>
+                <label for="cpyright">Copyright?</label> <br />
+                <input type="radio" name="derechos" value="derechosreservados">Todos los derechos reservados <br/>
+                <input type="radio" name="bienes comunes creativos" value="creatividad">Creative Commons <br />
+                Licencias Creative Commons <br />
+                <input type="checkbox" name="licencias" value="atribucion"> Atribución <br />
+                <input type="checkbox" name="licencias" value="nocomercial"> No comercial <br />
+                <input type="checkbox" name="licencias" value="notrabajosderivativos"> No hay trabajos derivativos <br />
+                <input type="checkbox" name="licencias" value="compartirporigual"> Compartir por igual <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                Fecha de toma: <br />
+                <input type="date"> <br /> <br />
+                Hora de toma: <br />
+                <input type="time"> <br />
+            </div>
+            </div>
+    </fieldset>
+</form>
+</html>

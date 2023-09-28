@@ -1,0 +1,13 @@
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contenedor > div {
+    width: 50%
+}
+
+#ciudades {
+    width: 200px; 
+}
