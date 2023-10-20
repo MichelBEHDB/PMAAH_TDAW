@@ -1,0 +1,44 @@
+header {
+  height: 400px;
+  background: orange;
+}
+ nav{
+   height: 75px;
+   background: red;
+ }
+ main{
+   height: 700px;
+   background: blue;
+   display: flex;
+   flex-direction: column;
+ }
+footer{
+  height: 100px;
+  background: black;
+}
+
+#contenido{
+  background: yellow;
+  margin: 75px 100px;
+  flex-grow: 1;
+}
+#suscribir{
+  background: gray;
+  height: 100px;
+}
+p{
+  background: green;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 75px;
+}
+.columna-doble{
+   display: flex;
+   justify-content: space-around;
+   height: 200px;
+}
+div .columna{
+  background: lime;
+  width: calc(50% - 10px);
+  margin: 5px;
+}
