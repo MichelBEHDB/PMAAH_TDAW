@@ -1,0 +1,99 @@
+.contenedor-imagen{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/art-background4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 150vh;;
+    background-size: 100% 100%;
+    max-width: 100%;
+}
+
+.contenedor-header {
+    background-color: white;
+    height: 13vh;
+    width: 25vw;
+    padding: 1.5em;
+    padding-left: 1em;
+    padding-right: 2.5em;
+    margin-bottom: 6em;
+    margin-left: 8em;
+    background-size: 100% 100%;
+    float: left;
+  }
+
+
+
+header h1 {
+    font-size: 1.4em;
+    font-family: 'Six Caps', Arial, sans-serif;
+    margin-bottom: 0em;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-size: 100% 100%;
+}
+
+header h2 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    background-size: 100% 100%;
+}
+
+
+  .contenedor-titulo {
+    background-color: rgba(192, 192, 192, 0.5);
+    opacity: 0.5;
+    height: 7vh;
+    width: 40vw;
+    margin-left: 4.8em;
+    margin-bottom: 0em;
+    line-height: 7vh;
+    text-indent: 18px;
+    font-size: 28px;
+    background-size: 100% 100%;
+  }
+
+.contenedor-section {
+    background-color: rgba(240, 240, 240, 0.5);
+    height: 30vh;
+    width: 38.4vw;
+    padding-left: 0.8em;
+    margin-left: 4.8em;
+    margin-bottom: o;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-size: 100% 100%;
+    font-size: 28px
+}
+
+.contenedor-activo {
+  font-weight: bold;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  margin: 0;
+  padding: 0.7em;
+  width: 13em;
+}
+
+footer {
+  width: 39vw;
+  height: 7vh;
+  background-color: white;
+  padding-top: 0.7em;
+  padding-left: 1em;
+  padding-bottom: 0.7em;
+  margin-left: 8.3em;
+  background-size: 100% 100%;
+  text-indent: 35px;
+
+}
+
+
+
+  
+  
+  
+  
+  
+  
