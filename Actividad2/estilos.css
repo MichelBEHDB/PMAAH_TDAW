@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#contenedor-rompecabezas {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 5px;
+    width: 420px;
+}
+
+.pieza-rompecabezas {
+    width: 100px;
+    height: 100px;
+    background-color: #F8B270;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.pieza-vacia {
+    background-color: white;
+}
