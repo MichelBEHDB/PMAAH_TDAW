@@ -1,12 +1,35 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: yellow;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 2.3cm;
+    left: 12cm;
+    right: 12cm;
+    bottom: 0.2cm;
+    background-color: red;
+    z-index: -1; /* Para asegurarse de que esté detrás del contenido del body */
+    
+  }
 
 #contenedor-rompecabezas {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-gap: 5px;
     width: 420px;
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+    background-color: white;
 }
 
 .pieza-rompecabezas {
@@ -21,5 +44,29 @@ body {
 }
 
 .pieza-vacia {
-    background-color: white;
+    background-color: #FF8C00;
+}
+
+h1 {
+    background-color: #DEB887;
+    margin-bottom: 1.5em;
+    color: red;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#tablero {
+    background-color: red;
+}
+
+#boton-iniciar {
+    background-color: yellow;
+    margin-right: 1em;
+}
+
+article > * {
+    display: inline-block;
+}
+
+#contador-movimientos {
+    margin-right: 1em;
 }
