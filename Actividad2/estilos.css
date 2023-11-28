@@ -13,7 +13,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    top: 2.3cm;
+    top: 3.5cm;
     left: 12cm;
     right: 12cm;
     bottom: 0.2cm;
@@ -49,7 +49,7 @@ body::before {
 
 h1 {
     background-color: #DEB887;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.5em;
     color: red;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
